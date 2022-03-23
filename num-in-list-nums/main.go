@@ -20,7 +20,9 @@ func numInList(list []int, num int) bool {
 	// lack of knowledge about the list means you must check every value
 	// could use a map for this - or check every number (which is slower but more simple)
 
+	// using blank identifier for index and iterating through the slice list
 	for _, val := range list {
+		// checking each value in list to see if it matches the number argument passed to the function
 		if val == num {
 			return true
 		}
