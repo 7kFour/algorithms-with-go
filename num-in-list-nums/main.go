@@ -32,3 +32,4 @@ func numInList(list []int, num int) bool {
 }
 
 // just because you see some test cases pass don't assume your code is correct
+// make sure all of the applicable tests are passing
