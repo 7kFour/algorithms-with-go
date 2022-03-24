@@ -18,6 +18,7 @@ func main() {
 
 // good explanation on byte vs rune if unsure
 // https://levelup.gitconnected.com/demystifying-bytes-runes-and-strings-in-go-1f94df215615
+// in short bytes are uint8 and runes are int32 type
 
 // reverse takes a string as an argument and returns the string reversed
 func reverse(word string) string {
