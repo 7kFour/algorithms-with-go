@@ -1,6 +1,5 @@
-# algorithms-with-go
-repo for practicing algos with Go
+# Algorithms with Go
+Repo for practicing algos with Go. Heavily commented as a refresher or as a crash course for newer Go programmers. 
 
-I added tests into the files themselves to make them function as self contained notes for looking back on later
+Functions called from main instead of adding them as external test files for ```go test```
 
-could also set up a test file for ```go test```
